@@ -133,7 +133,7 @@ export async function getStaticProps() {
     return {
       props: {
         data: {
-          username: "Ansh-Rathod",
+          username: "ryotarofr",
           avatar: "https://avatars.githubusercontent.com/u/67627096?v=4",
           repos: 28,
           followers: 122,
