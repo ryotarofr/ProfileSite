@@ -37,7 +37,7 @@ function Skills() {
               Frameworks
             </h1>
             <ListItem name="Nextjs" i={1} />
-            <ListItem name="Nodejs" i={2} />
+            <ListItem name="express" i={2} />
             <ListItem name="Tailwind CSS" i={3} />
             <ListItem name="React" i={4} />
             <ListItem name="python Django" i={5} />
