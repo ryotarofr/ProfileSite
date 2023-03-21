@@ -13,8 +13,6 @@ import redis from "lib/redis";
 import { useRouter } from "next/router";
 import Model from "../components/Model";
 import { projects } from "../data/projects";
-import { StarsCanvas } from "@/components/convas";
-import EarthCanvas from "@/components/convas/Earth";
 
 const Home: NextPage = ({ data }: any) => {
   const router = useRouter();
@@ -73,7 +71,7 @@ const Home: NextPage = ({ data }: any) => {
           className="py-14 max-w-[1200px] mx-auto flex flex-col
          items-center px-4"
         >
-          <MusiveCard />
+          {/* <MusiveCard /> */}
         </div>
         <div className="border-t-[1px] border-t-slate-300 mt-14"></div>
 
@@ -134,10 +132,10 @@ export async function getStaticProps() {
       props: {
         data: {
           username: "ryotarofr",
-          avatar: "https://avatars.githubusercontent.com/u/67627096?v=4",
-          repos: 28,
-          followers: 122,
-          stars: 370,
+          avatar: "https://avatars.githubusercontent.com/u/81869509?s=400&u=d1fbe6e389b9996b2dd7299a892a8ad49560ff80&v=4",
+          repos: 6,
+          followersd: 6,
+          stars: 6,
         },
       },
     };

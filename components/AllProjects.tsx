@@ -46,8 +46,7 @@ function AllProjects() {
                 transition={{ delay: 3 }}
                 className="font-proxima text-slate-100 text-[18px] text-center"
               >
-                I have worked with multiple technologies as a developer to build
-                and maintain my projects.
+
               </motion.p>
             </div>
             <div className="grid grid-cols-2 gap-4 mobile:grid-cols-1 tablet:grid-cols-1 tablet:px-4 mobile:px-2">

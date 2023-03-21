@@ -6,10 +6,10 @@ function Memes() {
       <p className="font-bold text-[20px] mb-4">Coming soon</p>
       <p>
         Follow{" "}
-        <a className="text-blue-400" href="https://twitter.com/@anshrathodfr">
-          @anshrathodfr
+        <a className="text-blue-400" href="https://www.instagram.com/anshrathodfr">
+          @ryotarofr
         </a>{" "}
-        on twitter for the programming memes created by me.
+        on instagram for the programming memes created by me.
       </p>
     </div>
   );

@@ -15,8 +15,7 @@ function Contact() {
             Contact me
           </h1>
           <p className="font-proxima text-[18px] text-center mt-2">
-            Leave a message on my any of my social media, i&apos;ll reach out to
-            you soon.
+            SNSでメッセージをお待ちしております。
           </p>
         </div>
 
@@ -29,37 +28,31 @@ function Contact() {
         >
           <Icon
             i={1}
-            url="https://github.in/Ansh-Rathod"
+            url="https://github.in/ryotarofr"
             name="Github"
             classes="fa-brands fa-github"
           />
 
-          <Icon
+          {/* <Icon
             i={2}
-            url="https://twitter.com/anshrathodfr"
+            url="https://twitter.com/my-name"
             classes="fa-brands fa-twitter"
             name="Twitter"
-          />
-          <Icon
-            i={3}
-            url="https://www.linkedin.com/in/ansh-rathod-478a81210/"
-            classes="fa-brands fa-linkedin"
-            name="Linkedin"
-          />
+          /> */}
           <Icon
             i={4}
-            url="https://discordapp.com/users/768376622243119114"
+            url="https://discordapp.com/users/925623118389715008"
             classes="fa-brands fa-discord"
           />
           <Icon
             i={5}
-            url="mailto:anshrathod29@gmail.com"
+            url="mailto:ryoryo.fr0608@icloud.com"
             classes="fa-solid fa-envelope"
             name="Email"
           />
           <Icon
             i={6}
-            url="https://www.instagram.com/anshrathodfr"
+            url="https://www.instagram.com/fr__1030"
             name="Instagram"
             classes="fa-brands fa-instagram"
           />
@@ -67,7 +60,7 @@ function Contact() {
       </div>
 
       <div className="py-6 border-t-[0.6px] mobile:px-6 tablet:px-8 border-slate-200 text-center text-[14px] text-slate-500">
-        <p>© September 2022 Ansh Rathod. All rights reserved.</p>
+        <p>© March 2023 . Developed by Ryotaro Fujii.</p>
       </div>
     </motion.div>
   );

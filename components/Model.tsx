@@ -63,14 +63,14 @@ function Model({ project, isOpen }: { project: any; isOpen: boolean }) {
                   <div>
                     <b className="pl-1.5 font-poppins">Share on</b>
                     <div className="pt-5 flex flex-row">
-                      <Icon
+                      {/* <Icon
                         classes="fa-brands fa-linkedin"
                         url={`https://www.linkedin.com/sharing/share-offsite/?url=${project.url}`}
-                      />
+                      /> */}
 
                       <Icon
                         classes="fa-brands fa-twitter"
-                        url={`http://twitter.com/share?text=Check out this amazing app built by @AnshhRathod on github. view all projects on anshrathod.com&url=${project.url}&hashtags=flutter,opensource,github`}
+                        url={`http://twitter.com/share?text=Check out this amazing app built by @ryotarofr on github. view all projects on fr-next.dev&url=${project.url}&hashtags=typescript,opensource,github`}
                       />
                       <Icon classes="fa-regular fa-copy" />
                     </div>
@@ -109,9 +109,9 @@ function Model({ project, isOpen }: { project: any; isOpen: boolean }) {
                         src={
                           project.name != "Cineast"
                             ? `https://img.shields.io/github/stars/${project.url.replace(
-                                "https://github.com/",
-                                ""
-                              )}?style=social`
+                              "https://github.com/",
+                              ""
+                            )}?style=social`
                             : "https://img.shields.io/static/v1?label=Downloads&message=1k&color=%3CCOLOR%3E"
                         }
                         alt="stars"
