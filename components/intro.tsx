@@ -5,6 +5,7 @@ import Icon from "../components/Icon";
 import EarthCanvas from './convas/Earth';
 import StarsCanvas from './convas/Stars';
 import { Navbar } from "./Navbar";
+import NameCanvas from './convas/Name';
 
 const textAnimate = {
   offscreen: { y: 50, opacity: 0 },
@@ -95,14 +96,18 @@ const Intro = () => (
               />
             </motion.div>
             <StarsCanvas />
+            {/* <NameCanvas /> */}
+            {/* <EarthCanvas /> */}
           </div>
-          {/* <div className="w-[45%] h-screen max-h-[808px] tablet:hidden mobile:hidden "> */}
-          {/* <div className=" w-full h-full relative"> */}
+          <div className="w-[45%] h-screen tablet:hidden mobile:hidden ">
+            <div className="w-[45%] h-full absolute">
 
-          {/* <EarthCanvas /> */}
-          {/* <StarsCanvas /> */}
 
-          {/* <Image
+              {/* <NameCanvas /> */}
+              <EarthCanvas />
+              {/* <StarsCanvas /> */}
+
+              {/* <Image
                 src="/intro (1123 × 1123 px).png"
                 layout="fill"
                 objectFit="cover"
@@ -110,8 +115,8 @@ const Intro = () => (
                 alt="intro"
               /> */}
 
-          {/* </div> */}
-          {/* </div> */}
+            </div>
+          </div>
         </div>
       </div>
     </div>
