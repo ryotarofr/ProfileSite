@@ -10,7 +10,7 @@ function Project({ project }: { project: any }) {
   const router = useRouter();
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>{project.name + " | Ansh Rathod"}</title>
         <meta property="og:title" content={project.name + " | Ansh Rathod"} />
         <meta
@@ -36,7 +36,7 @@ function Project({ project }: { project: any }) {
           itemProp="image"
           content="https://anshrathod.com/intro_image_meta.png"
         />
-      </Head>
+      </Head> */}
 
       <div className="overflow-y-hidden h-screen">
         <div
@@ -132,9 +132,9 @@ function Project({ project }: { project: any }) {
                     src={
                       project.name != "Cineast"
                         ? `https://img.shields.io/github/stars/${project.url.replace(
-                            "https://github.com/",
-                            ""
-                          )}?style=social`
+                          "https://github.com/",
+                          ""
+                        )}?style=social`
                         : "https://img.shields.io/static/v1?label=Downloads&message=1k&color=%3CCOLOR%3E"
                     }
                     alt="stars"
